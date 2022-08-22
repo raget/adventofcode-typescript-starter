@@ -48,7 +48,7 @@ async function createInputFiles () {
 
   ['part1.example.txt', 'part1.txt', 'part2.example.txt', 'part2.txt']
     .map(async filename =>
-      await createFileWithContentIfItDoesntExist(path.join(inputDayPath, filename), 'Paste the input here'))
+      await createFileWithContentIfItDoesntExist(path.join(inputDayPath, filename), 'Paste sample input here'))
 }
 
 async function copyTemplate (from, to) {
